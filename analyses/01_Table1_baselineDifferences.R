@@ -1,7 +1,7 @@
 library(gmodels) # for Cross Table
 
 # import the data
-tDCSdata = read.csv(file = "D:/_CogNeurPhD/03-Experiment_tDCS/tDCSraw.csv", header = T)
+tDCSdata = read.csv(file = "tDCSraw.csv", header = T)
 
 # make stimulation, gender and belief factors
 tDCSdata$stimulation = factor(tDCSdata$stimulation,
