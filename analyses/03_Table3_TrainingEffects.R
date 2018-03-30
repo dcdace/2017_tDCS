@@ -2,7 +2,7 @@ library(BayesFactor)
 library(xtable) # for html formatted table
 
 # import the data
-tDCSdata = read.csv(file = "D:/_CogNeurPhD/03-Experiment_tDCS/tDCSraw.csv", header = T)
+tDCSdata = read.csv(file = "tDCSraw.csv", header = T)
 
 # make stimulation a factor
 tDCSdata$stimulation = factor(tDCSdata$stimulation,
