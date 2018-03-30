@@ -3,7 +3,7 @@ library(ez)
 library(BayesFactor)
  
 # import the data
-tDCSdata = read.csv(file = "D:/_CogNeurPhD/03-Experiment_tDCS/tDCSraw.csv", header = T)
+tDCSdata = read.csv(file = "tDCSraw.csv", header = T)
 
 # calculate mean Accuracy
 tDCSdata$meanAcc     = rowMeans(subset(tDCSdata, select 
