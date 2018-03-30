@@ -2,7 +2,7 @@ library(plyr) # for function 'count'
 library(xtable)
 
 # import the data
-tDCSdata = read.csv(file = "D:/_CogNeurPhD/03-Experiment_tDCS/tDCSraw.csv", header = T)
+tDCSdata = read.csv(file = "tDCSraw.csv", header = T)
 
 # ==================================================================
 # how many felt any sensations on any of the four days
